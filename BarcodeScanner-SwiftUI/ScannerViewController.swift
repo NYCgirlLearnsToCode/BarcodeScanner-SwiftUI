@@ -18,7 +18,6 @@ protocol ScannerVCDelegate: AnyObject {
     func didSurface(error: CameraError)
 }
 
-
 final class ScannerViewController: UIViewController {
     
     let captureSession = AVCaptureSession()
